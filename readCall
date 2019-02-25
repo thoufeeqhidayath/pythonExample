@@ -1,0 +1,19 @@
+from read import read
+
+
+class readCall:
+
+    def main(self):
+        print("hello")
+        self.callfun()
+
+
+    def callfun(self):
+          reads=read()
+          print(reads.prints())
+
+
+
+
+
+
